@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+}
+.body{
+    background-color: aliceblue;
+}
+.primary-nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(21, 93, 52);
+}
+
+.primary-nav img{
+    aspect-ratio: 15/6;
+    height: 60px;
+    margin: 5px;
+}
+
+.primary-text{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.primary-subheading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin: 0;
+    background-color: rgb(158, 11, 11);
+    border: 2px white solid;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10%;
+}
+
+.primary-nav{
+    display: flex;
+}
+.nav-items{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: azure;
+}
+
+.nav-loc{
+    display: flex;
+    align-items: center;
+}
+
+.nav-loc svg{
+    margin: 0px 5px 10px 0px;
+}
+
+.search-bar{
+    width: 250px;
+    height: 80px;
+    margin-top: 50px;
+    
+}
+.contacts a{
+    color: white;
+}
+
+.second-nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(32, 141, 85);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.second-nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: snow;
+    padding: 0px 10px;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+
+.sign-in{
+    height: 40px;
+    width: 80px;
+    border: 2px white solid;
+    background-color: transparent;
+    color: snow;
+    border-radius: 10%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 100;
+    
+}
+
+.sign-in a{
+    text-decoration: none;
+    color: white;
+}
+.sign-in a:hover{
+    color: rgb(53, 133, 219);
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 400px;
+   
+}
+
+/* #carouselExampleAutoplaying{
+    
+} */
+.carousel-item img{
+    background-image: linear-gradient(to top,grey,black);
+}
+
+.marq{
+    height: 60px;
+    width: 80%;
+    background-color: rgb(18, 149, 75);
+    display: flex;
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 30px;
+}
+.marq marquee{
+   text-align: center;
+   font-size: 35px;
+   color: white;
+   font-weight: 600;
+}
+
+.about{
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 40px;
+}
+
+.about h1{
+    color: rgb(32, 141, 85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    font-size: 50px;
+    font-weight: 600;
+}
+.about h2{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    color: rgb(7, 24, 80);
+    top: 30%;
+    left: 45%;
+    font-size: 30px;
+}
+.about p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    color: black;
+    top: 45%;
+    font-size: 15px;
+    font-weight: 400;
+}
+.about2 h2{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    color: rgb(7, 24, 80);
+    top: 70%;
+    left: 46%;
+    font-size: 30px;
+}
+.about2 p{
+    display: flex;
+    /* align-items: center; */
+    /* text-align: center; */
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    color: black;
+    top: 85%;
+    font-size: 15px;
+    font-weight: 400;
+    right: 27%;
+}
+
+.dept{
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.dept h1{
+    color: rgb(32, 141, 85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    font-size: 50px;
+    font-weight: 600; 
+}
+.dp{
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 150px;
+    border-radius: 10%;
+}
+
+.dept2{
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 350px;
+}
+
+.dp img{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+}
+.dp h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    color: rgb(7, 24, 80);
+    top: 78%;
+    left: 25%;
+    font-size: 20px;
+}
+
+.doctor{
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.doctor h1{
+    color: rgb(32, 141, 85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    /* top: 5%; */
+    /* left: 35%; */
+    font-size: 50px;
+    font-weight: 600; 
+    text-align: center;
+}
+
+.doctor p{
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    top: 13%;
+    /* left: 35%; */
+    font-size: 17px;
+    text-align: center;
+    /* font-weight: 300;  */
+}
+.doctor2{
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 340px;
+   
+}
+.dp h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    color: rgb(7, 24, 80);
+    top: 90%;
+    /* left: 25%; */
+    font-size: 15px;
+    text-align: center;
+}
+
+.contact{
+    height: 270px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: rgb(18, 149, 75);
+}
+
+.cnt{
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    border: 0px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: column ;
+    position: relative;
+    top: 50px;
+}
+.cnt a{
+    text-decoration: none;
+    color: white;
+}
+.cnt h4{
+    color: white;
+    font-weight: 600;
+    
+}
+
+.cnt a:hover{
+    color: blue;
+}
+.contact-end{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(2, 65, 2);
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.contact-end a{
+    padding: 10px;
+    color: white;
+}
+.contact-end a:hover{
+    color: rgb(27, 77, 203);
+}
